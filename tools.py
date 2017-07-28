@@ -28,7 +28,7 @@ def isPowerOff(device1,device2):
 		time.sleep(0.1)
 
 		line2 = ser_test2.readline()
-		ser_test2.write(line1) 
+		ser_test2.write(line2) 
 		ser_test2.flushInput()
 		time.sleep(0.1)
 		if(len(line1)>3 or len(line2)>3):
