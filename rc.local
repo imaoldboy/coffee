@@ -17,7 +17,7 @@ if [ "$_IP" ]; then
   printf "My IP address is %s\n" "$_IP"
 fi
 
-/bin/sh /home/pi/python/startup.sh
+/bin/sh /home/pi/coffee/startup.sh
 #nohup python -u /home/pi/python/all.py > /home/pi/python/all.log 2>&1 &
 nohup omxplayer -o hdmi -r /home/pi/Videos/coffee-release2.mp4 > /home/pi/Videos/video.log
 
